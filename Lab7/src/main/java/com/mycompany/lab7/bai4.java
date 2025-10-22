@@ -11,6 +11,7 @@ package com.mycompany.lab7;
 public class bai4 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        QuanLySinhVien ql = new QuanLySinhVien();
+        ql.menu();
     }
 }

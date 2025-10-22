@@ -11,6 +11,11 @@ package com.mycompany.lab7;
 public class bai3 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SinhVienPoly sv1 = new SinhVienIT("Nguyễn Văn A", 8.5, 7.5, 9.0);
+        SinhVienPoly sv2 = new SinhVienBiz("Trần Thị B", 7.0, 8.0);
+
+        sv1.xuat();
+        System.out.println("----------------------");
+        sv2.xuat();
     }
 }
